@@ -1,0 +1,329 @@
+/* @override http://localhost:8888/CSTEM/css.css */
+
+/* SWITCHER CSS NEEDED */
+    .expanded {
+        display: inline;
+    }
+    .collapsed {
+        display: none;
+    }
+/* ------------------- */
+
+
+
+body {
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	text-align:center;
+	background: white url(imgs/pattern.jpg) repeat;
+	background-attachment: fixed;
+}
+
+#frame {
+		background-color: #fff;
+        /*border: solid #c1e3e0 10px;*/
+		width:900px;
+		margin-right:auto;
+		margin-left:auto;
+		margin-top:0px;
+		margin-bottom:0px;
+        padding:8px;
+		text-align:left;		
+}
+
+
+
+
+#heads{
+	width:900px;
+	height: 295px;
+	border:0px;
+	text-align:center;
+		
+	background: white url(imgs/cover.jpg) no-repeat;
+	border-bottom: solid 2px #c1e3e0;
+}
+
+
+
+
+
+
+
+#divfoot{
+
+text-align:center;
+border-top: dotted #fff 1px;
+background-color: #fff;
+}
+#divlang{
+background-color: #c1e3e0;
+text-align:right;
+}
+
+
+
+.copyright{
+border:0px;
+font:  12px georgia, "trebuchet MS", trebuchet, verdana, arial, sans-serif;
+padding:20px;
+color:#fff;
+	background-color: #000;
+	/*background: #000 url(imgs/pattfoot.jpg) repeat;*/
+}
+
+.copyright a {
+	color:#ccc;
+}
+.copyright a:hover {
+	color:#fff;
+	text-decoration: none;
+}
+
+
+
+.spacer{
+padding:5px;
+}
+
+
+#cbody {
+	width:900px;
+}
+
+#colleft {
+		width:130px;
+		float:left;
+} /* 3D1C1A */
+
+#colleft ul {
+	/*border-right: solid 1px #657a77;*/
+	margin: 0px;
+margin-top:30px;
+padding: 0px;
+	padding-bottom: 30px;
+		/*background:  #fff url(imgs/round3.png) no-repeat bottom;*/
+}
+
+#colleft li {
+position: relative;
+list-style: none;
+padding-bottom: 5px;
+}
+
+#colleft li a {
+display: block;
+text-decoration: none;
+color: #657a77;
+padding: 2px;
+text-align: right;
+font:  12px georgia, "trebuchet MS", trebuchet, verdana, arial, sans-serif;
+font-variant: small-caps;
+padding-right:10px;
+}
+
+#colleft li a:hover { 
+color: #000; 
+text-decoration: underline;
+background-color: #c1e3e0;
+}
+
+#colleft li #act { 
+color: #fff; 
+	font-weight: bold;
+	background: #000 url(imgs/list.png) no-repeat;
+}
+
+
+
+#colright {
+		width:770px;
+		float:left;
+		/*background:  #fff url(imgs/round2.png) no-repeat top;*/
+}
+
+#colright_text {
+margin-top:30px;
+padding-left: 70px;
+padding-right: 10px;
+text-align: justify;
+font:  12px georgia, "trebuchet MS", trebuchet, verdana, arial, sans-serif;
+color: #000;
+line-height: 19px;
+		/*background:  #fff url(imgs/round4.png) no-repeat bottom;*/
+		padding-bottom: 10px;
+}
+
+
+#colright_text p {
+border-left: solid #c1e3e0 1px;
+padding-left:10px;
+}
+#colright_text a {
+	color:#74938d;
+}
+#colright_text a:hover {
+	color:#000;
+	text-decoration: none;
+}
+
+#colright_text .quotation {
+background: #f1f0ae;
+color: #3b1d1b;
+padding:15px;
+border-left: solid #3b1d1b 1px;
+font-size: 14px;
+}
+
+#colright_text .quotationThin {
+background: #c5f3e6;
+margin: 0px;
+margin-top: 1px;
+color: #3b1d1b;
+padding:7px;
+padding-left: 25px;
+border-left: solid #3b1d1b 1px;
+font-size: 12px;
+}
+
+#colright_text ul {
+margin: 0px;
+padding: 0px;
+padding-left: 10px;
+line-height: 10px;
+list-style: none;
+}
+#colright_text li {
+position: relative;
+padding-bottom: 12px;
+}
+
+
+
+.virg {
+font:  24px georgia, "trebuchet MS", trebuchet, verdana, arial, sans-serif;
+line-height: 5px;
+}
+
+#colright_text h4 {
+margin:0;
+padding:0;
+color:#000;
+}
+
+/*
+#colright_text img {
+border-bottom: dotted #D7A4A0 1px;
+padding-bottom:10px;
+margin-top: 5px;
+margin-bottom: 10px;
+}*/
+
+.imgs p {
+font: italic 95%/1.6em Georgia, serif;
+  margin: 0; 
+  padding-top: 15px;
+;  }
+.imgs {
+float: left; margin: 10px 10px 10px 10px; text-align: left;
+border: solid #ccc 1px;   
+padding:3px;
+
+}
+
+
+.img {
+border:0;
+}
+
+
+
+
+
+
+.titled {
+	text-align:left;
+	font-family: georgia, "trebuchet MS", trebuchet, verdana, arial, sans-serif;
+	font-size: 19px;
+	color:#fff;    
+	background:#000;
+	padding:7px;      
+	padding-left:40px;
+font-variant: small-caps;           
+background: #000 url(imgs/list.png) no-repeat;
+
+}
+.subtitled {
+	text-align:left;
+	font-family: georgia, "trebuchet MS", trebuchet, verdana, arial, sans-serif;
+	font-size: 13px;
+	color:#333;
+	padding-bottom:0px;
+	border-bottom: dotted #ccc 1px;
+	margin-top: 2px;
+}
+.subtitled a {
+	color:#777;
+}
+.subtitled a:hover {
+	color:#000;
+	text-decoration: none;
+}
+
+
+.didatitle {
+	text-align:left;
+	font-family: georgia, "trebuchet MS", trebuchet, verdana, arial, sans-serif;
+	font-size: 10px;
+	color:#000;    
+	margin-bottom:5px; 
+}
+
+
+
+
+#foot{
+	background-color: #c1e3e0;
+	margin:0;
+	padding:0px;
+	border:0;	
+	float:left;
+}
+
+
+
+
+
+#foot img {
+	margin:0;
+	padding:0px;
+	border:0;	
+}
+
+
+#langa{
+position:fixed;
+
+background:  #fff;
+border: solid #d571d5 1px;
+top:0px;
+left:auto;
+right:0px;
+display: block;
+text-decoration: none;
+color: #000;
+padding: 10px;
+font:  11px georgia, "trebuchet MS", trebuchet, verdana, arial, sans-serif;
+/*font-variant: small-caps;*/
+text-transform:uppercase;
+}
+#langa a {
+	color:#000;
+}
+#langa a:hover {
+	color:#76211A;
+	text-decoration: none;
+}
+
